@@ -1,8 +1,0 @@
-# Replaces all var edited windoor instances with directional mapping helpers
-# This has the happy side effect of fixing all the directional helpers that are var overriden as well, which is completely pointless and confusing.
-
-# Left sliding windoors
-/obj/machinery/door/window/left/directional/@SUBTYPES{dir=1} : /obj/machinery/door/window/left/directional/north{@OLD;dir=@SKIP}
-/obj/machinery/door/window/left/directional/@SUBTYPES{dir=2} : /obj/machinery/door/window/left/directional/south{@OLD;dir=@SKIP}
-/obj/machinery/door/window/left/directional/@SUBTYPES{dir=4} : /obj/machinery/door/window/left/directional/east{@OLD;dir=@SKIP}
-/obj/machinery/door/window/left/directional/@SUBTYPES{dir=8} : /obj/machinery/door/window/left/directional/west{@OLD;dir=@SKIP}

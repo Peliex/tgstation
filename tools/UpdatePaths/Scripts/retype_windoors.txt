@@ -1,0 +1,18 @@
+# Replaces all var edited windoor instances with directional mapping helpers
+# This has the happy side effect of fixing all the directional helpers that are var overriden as well, which is completely pointless and confusing.
+
+# Retype doors that override base_state
+/obj/machinery/door/window/left/@SUBTYPES{base_state="right"} : /obj/machinery/door/window/right/@SUBTYPES{@OLD;base_state=@SKIP}
+/obj/machinery/door/window/right/@SUBTYPES{base_state="left"} : /obj/machinery/door/window/left/@SUBTYPES{@OLD;base_state=@SKIP}
+
+# Left sliding windoors
+/obj/machinery/door/window/left/@SUBTYPES{dir=1} : /obj/machinery/door/window/left/directional/north{@OLD;dir=@SKIP}
+/obj/machinery/door/window/left/@SUBTYPES{dir=2} : /obj/machinery/door/window/left/directional/south{@OLD;dir=@SKIP}
+/obj/machinery/door/window/left/@SUBTYPES{dir=4} : /obj/machinery/door/window/left/directional/east{@OLD;dir=@SKIP}
+/obj/machinery/door/window/left/@SUBTYPES{dir=8} : /obj/machinery/door/window/left/directional/west{@OLD;dir=@SKIP}
+
+# Right sliding windoors
+/obj/machinery/door/window/right/@SUBTYPES{dir=1} : /obj/machinery/door/window/right/directional/north{@OLD;dir=@SKIP}
+/obj/machienry/door/window/right/@SUBTYPES{dir=2} : /obj/machinery/door/window/right/directional/south{@OLD;dir=@SKIP}
+/obj/machinery/door/window/right/@SUBTYPES{dir=4} : /obj/machinery/door/window/right/directional/east{@OLD;dir=@SKIP}
+/obj/machinery/door/window/right/@SUBTYPES{dir=8} : /obj/machienry/door/window/right/directional/west{@OLD;dir=@SKIP}
