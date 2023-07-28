@@ -15,4 +15,4 @@
 /obj/machinery/door/window/right/@SUBTYPES{dir=1} : /obj/machinery/door/window/right/directional/north{@OLD;dir=@SKIP}
 /obj/machienry/door/window/right/@SUBTYPES{dir=2} : /obj/machinery/door/window/right/directional/south{@OLD;dir=@SKIP}
 /obj/machinery/door/window/right/@SUBTYPES{dir=4} : /obj/machinery/door/window/right/directional/east{@OLD;dir=@SKIP}
-/obj/machinery/door/window/right/@SUBTYPES{dir=8} : /obj/machienry/door/window/right/directional/west{@OLD;dir=@SKIP}
+/obj/machinery/door/window/right/@SUBTYPES{dir=8} : /obj/machinery/door/window/right/directional/west{@OLD;dir=@SKIP}
