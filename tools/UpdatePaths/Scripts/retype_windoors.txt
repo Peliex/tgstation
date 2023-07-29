@@ -46,10 +46,10 @@
 # Retype doors that override dir
 
 # Left sliding generic brig doors
-/obj/machinery/door/window/brigdoor/left/@SUBTYPES{dir=1} : /obj/machinery/door/window/brigdoor/left/north{@OLD;dir=@SKIP}
-/obj/machinery/door/window/brigdoor/left/@SUBTYPES{dir=2} : /obj/machinery/door/window/brigdoor/left/south{@OLD;dir=@SKIP}
-/obj/machinery/door/window/brigdoor/left/@SUBTYPES{dir=4} : /obj/machinery/door/window/brigdoor/left/east{@OLD;dir=@SKIP}
-/obj/machinery/door/window/brigdoor/left/@SUBTYPES{dir=8} : /obj/machinery/door/window/brigdoor/left/west{@OLD;dir=@SKIP}
+/obj/machinery/door/window/brigdoor/left/@SUBTYPES{dir=1} : /obj/machinery/door/window/brigdoor/left/directional/north{@OLD;dir=@SKIP}
+/obj/machinery/door/window/brigdoor/left/@SUBTYPES{dir=2} : /obj/machinery/door/window/brigdoor/left/directional/south{@OLD;dir=@SKIP}
+/obj/machinery/door/window/brigdoor/left/@SUBTYPES{dir=4} : /obj/machinery/door/window/brigdoor/left/directional/east{@OLD;dir=@SKIP}
+/obj/machinery/door/window/brigdoor/left/@SUBTYPES{dir=8} : /obj/machinery/door/window/brigdoor/left/directional/west{@OLD;dir=@SKIP}
 
 # Right sliding generic brig doors
 /obj/machinery/door/window/brigdoor/right/@SUBTYPES{dir=1} : /obj/machinery/door/window/brigdoor/right/north{@OLD;dir=@SKIP}
@@ -58,10 +58,10 @@
 /obj/machinery/door/window/brigdoor/right/@SUBTYPES{dir=8} : /obj/machinery/door/window/brigdoor/right/west{@OLD;dir=@SKIP}
 
 # Left sliding brig cell doors
-/obj/machinery/door/window/brigdoor/security/cell/left/@SUBTYPES{dir=1} : /obj/machinery/door/window/brigdoor/security/cell/left/north{@OLD;dir=@SKIP}
-/obj/machinery/door/window/brigdoor/security/cell/left/@SUBTYPES{dir=2} : /obj/machinery/door/window/brigdoor/security/cell/left/south{@OLD;dir=@SKIP}
-/obj/machinery/door/window/brigdoor/security/cell/left/@SUBTYPES{dir=4} : /obj/machinery/door/window/brigdoor/security/cell/left/east{@OLD;dir=@SKIP}
-/obj/machinery/door/window/brigdoor/security/cell/left/@SUBTYPES{dir=8} : /obj/machinery/door/window/brigdoor/security/cell/left/west{@OLD;dir=@SKIP}
+/obj/machinery/door/window/brigdoor/security/cell/left/@SUBTYPES{dir=1} : /obj/machinery/door/window/brigdoor/security/cell/left/directional/north{@OLD;dir=@SKIP}
+/obj/machinery/door/window/brigdoor/security/cell/left/@SUBTYPES{dir=2} : /obj/machinery/door/window/brigdoor/security/cell/left/directional/south{@OLD;dir=@SKIP}
+/obj/machinery/door/window/brigdoor/security/cell/left/@SUBTYPES{dir=4} : /obj/machinery/door/window/brigdoor/security/cell/left/directional/east{@OLD;dir=@SKIP}
+/obj/machinery/door/window/brigdoor/security/cell/left/@SUBTYPES{dir=8} : /obj/machinery/door/window/brigdoor/security/cell/left/directional/west{@OLD;dir=@SKIP}
 
 # Right sliding brig cell doors
 /obj/machinery/door/window/brigdoor/security/cell/right/@SUBTYPES{dir=1} : /obj/machinery/door/window/brigdoor/security/cell/right/north{@OLD;dir=@SKIP}
@@ -70,10 +70,10 @@
 /obj/machinery/door/window/brigdoor/security/cell/right/@SUBTYPES{dir=8} : /obj/machinery/door/window/brigdoor/security/cell/right/west{@OLD;dir=@SKIP}
 
 # Left sliding brig holding doors
-/obj/machinery/door/window/brigdoor/security/holding/left/@SUBTYPES{dir=1} : /obj/machinery/door/window/brigdoor/security/holding/left/north{@OLD;dir=@SKIP}
-/obj/machinery/door/window/brigdoor/security/holding/left/@SUBTYPES{dir=2} : /obj/machinery/door/window/brigdoor/security/holding/left/south{@OLD;dir=@SKIP}
-/obj/machinery/door/window/brigdoor/security/holding/left/@SUBTYPES{dir=4} : /obj/machinery/door/window/brigdoor/security/holding/left/east{@OLD;dir=@SKIP}
-/obj/machinery/door/window/brigdoor/security/holding/left/@SUBTYPES{dir=8} : /obj/machinery/door/window/brigdoor/security/holding/left/west{@OLD;dir=@SKIP}
+/obj/machinery/door/window/brigdoor/security/holding/left/@SUBTYPES{dir=1} : /obj/machinery/door/window/brigdoor/security/holding/left/directional/north{@OLD;dir=@SKIP}
+/obj/machinery/door/window/brigdoor/security/holding/left/@SUBTYPES{dir=2} : /obj/machinery/door/window/brigdoor/security/holding/left/directional/south{@OLD;dir=@SKIP}
+/obj/machinery/door/window/brigdoor/security/holding/left/@SUBTYPES{dir=4} : /obj/machinery/door/window/brigdoor/security/holding/left/directional/east{@OLD;dir=@SKIP}
+/obj/machinery/door/window/brigdoor/security/holding/left/@SUBTYPES{dir=8} : /obj/machinery/door/window/brigdoor/security/holding/left/directional/west{@OLD;dir=@SKIP}
 
 # Right sliding brig holding doors
 /obj/machinery/door/window/brigdoor/security/holding/right/@SUBTYPES{dir=1} : /obj/machinery/door/window/brigdoor/security/holding/right/north{@OLD;dir=@SKIP}
@@ -94,10 +94,10 @@
 # Retype doors that override dir
 
 # Left sliding elevator doors
-/obj/machinery/door/window/elevator/left/@SUBTYPES{dir=1} : /obj/machinery/door/window/elevator/left/north{@OLD;dir=@SKIP}
-/obj/machinery/door/window/elevator/left/@SUBTYPES{dir=2} : /obj/machinery/door/window/elevator/left/south{@OLD;dir=@SKIP}
-/obj/machinery/door/window/elevator/left/@SUBTYPES{dir=4} : /obj/machinery/door/window/elevator/left/east{@OLD;dir=@SKIP}
-/obj/machinery/door/window/elevator/left/@SUBTYPES{dir=8} : /obj/machinery/door/window/elevator/left/west{@OLD;dir=@SKIP}
+/obj/machinery/door/window/elevator/left/@SUBTYPES{dir=1} : /obj/machinery/door/window/elevator/left/directional/north{@OLD;dir=@SKIP}
+/obj/machinery/door/window/elevator/left/@SUBTYPES{dir=2} : /obj/machinery/door/window/elevator/left/directional/south{@OLD;dir=@SKIP}
+/obj/machinery/door/window/elevator/left/@SUBTYPES{dir=4} : /obj/machinery/door/window/elevator/left/directional/east{@OLD;dir=@SKIP}
+/obj/machinery/door/window/elevator/left/@SUBTYPES{dir=8} : /obj/machinery/door/window/elevator/left/directional/west{@OLD;dir=@SKIP}
 
 # Right sliding elevator doors
 /obj/machinery/door/window/elevator/right/@SUBTYPES{dir=1} : /obj/machinery/door/window/elevator/right/north{@OLD;dir=@SKIP}
@@ -118,10 +118,10 @@
 # Retype doors that override dir
 
 # Left sliding tram doors
-/obj/machinery/door/window/tram/left/@SUBTYPES{dir=1} : /obj/machinery/door/window/tram/left/north{@OLD;dir=@SKIP}
-/obj/machinery/door/window/tram/left/@SUBTYPES{dir=2} : /obj/machinery/door/window/tram/left/south{@OLD;dir=@SKIP}
-/obj/machinery/door/window/tram/left/@SUBTYPES{dir=4} : /obj/machinery/door/window/tram/left/east{@OLD;dir=@SKIP}
-/obj/machinery/door/window/tram/left/@SUBTYPES{dir=8} : /obj/machinery/door/window/tram/left/west{@OLD;dir=@SKIP}
+/obj/machinery/door/window/tram/left/@SUBTYPES{dir=1} : /obj/machinery/door/window/tram/left/directional/north{@OLD;dir=@SKIP}
+/obj/machinery/door/window/tram/left/@SUBTYPES{dir=2} : /obj/machinery/door/window/tram/left/directional/south{@OLD;dir=@SKIP}
+/obj/machinery/door/window/tram/left/@SUBTYPES{dir=4} : /obj/machinery/door/window/tram/left/directional/east{@OLD;dir=@SKIP}
+/obj/machinery/door/window/tram/left/@SUBTYPES{dir=8} : /obj/machinery/door/window/tram/left/directional/west{@OLD;dir=@SKIP}
 
 # Right sliding tram doors
 /obj/machinery/door/window/tram/right/@SUBTYPES{dir=1} : /obj/machinery/door/window/tram/right/north{@OLD;dir=@SKIP}
