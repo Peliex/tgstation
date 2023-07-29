@@ -1,8 +1,6 @@
 # Replaces all var edited windoor instances with directional mapping helpers
 # This has the happy side effect of fixing all the directional helpers that are var overriden as well, which is completely pointless and confusing.
 
-
-
 # Regular window doors
 
 
@@ -96,8 +94,16 @@
 # Retype doors that override dir
 
 # Left sliding elevator doors
+/obj/machinery/door/window/elevator/left/@SUBTYPES{dir=1} : /obj/machinery/door/window/elevator/left/north{@OLD;dir=@SKIP}
+/obj/machinery/door/window/elevator/left/@SUBTYPES{dir=2} : /obj/machinery/door/window/elevator/left/south{@OLD;dir=@SKIP}
+/obj/machinery/door/window/elevator/left/@SUBTYPES{dir=4} : /obj/machinery/door/window/elevator/left/east{@OLD;dir=@SKIP}
+/obj/machinery/door/window/elevator/left/@SUBTYPES{dir=8} : /obj/machinery/door/window/elevator/left/west{@OLD;dir=@SKIP}
 
 # Right sliding elevator doors
+/obj/machinery/door/window/elevator/right/@SUBTYPES{dir=1} : /obj/machinery/door/window/elevator/right/north{@OLD;dir=@SKIP}
+/obj/machinery/door/window/elevator/right/@SUBTYPES{dir=2} : /obj/machinery/door/window/elevator/right/south{@OLD;dir=@SKIP}
+/obj/machinery/door/window/elevator/right/@SUBTYPES{dir=4} : /obj/machinery/door/window/elevator/right/east{@OLD;dir=@SKIP}
+/obj/machinery/door/window/elevator/right/@SUBTYPES{dir=8} : /obj/machinery/door/window/elevator/right/west{@OLD;dir=@SKIP}
 
 
 
@@ -106,9 +112,19 @@
 
 # Retype doors that override base_state, disregard overriden icon_state var in this context
 
+/obj/machinery/door/window/tram/left/@SUBTYPES{base_state="right"} : /obj/machinery/door/window/tram/right/@SUBTYPES{@OLD;base_state=@SKIP;icon_state=@SKIP}
+/obj/machinery/door/window/tram/right/@SUBTYPES{base_state="left"} : /obj/machinery/door/window/tram/left/@SUBTYPES{@OLD;base_state=@SKIP;icon_state=@SKIP}
 
 # Retype doors that override dir
 
 # Left sliding tram doors
+/obj/machinery/door/window/tram/left/@SUBTYPES{dir=1} : /obj/machinery/door/window/tram/left/north{@OLD;dir=@SKIP}
+/obj/machinery/door/window/tram/left/@SUBTYPES{dir=2} : /obj/machinery/door/window/tram/left/south{@OLD;dir=@SKIP}
+/obj/machinery/door/window/tram/left/@SUBTYPES{dir=4} : /obj/machinery/door/window/tram/left/east{@OLD;dir=@SKIP}
+/obj/machinery/door/window/tram/left/@SUBTYPES{dir=8} : /obj/machinery/door/window/tram/left/west{@OLD;dir=@SKIP}
 
 # Right sliding tram doors
+/obj/machinery/door/window/tram/right/@SUBTYPES{dir=1} : /obj/machinery/door/window/tram/right/north{@OLD;dir=@SKIP}
+/obj/machinery/door/window/tram/right/@SUBTYPES{dir=2} : /obj/machinery/door/window/tram/right/south{@OLD;dir=@SKIP}
+/obj/machinery/door/window/tram/right/@SUBTYPES{dir=4} : /obj/machinery/door/window/tram/right/east{@OLD;dir=@SKIP}
+/obj/machinery/door/window/tram/right/@SUBTYPES{dir=8} : /obj/machinery/door/window/tram/right/west{@OLD;dir=@SKIP}
